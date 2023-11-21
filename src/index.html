@@ -2,10 +2,44 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Data Lovers</title>
+    <title>Data Verse</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+    <h1>Mujeres de la historia</h1>
+  </header>
+
+  <nav>
+    
+    <h2>Conoce más sobre estos personajes</h2>
+    <label for="Género">Filtrar por</label>
+    <select data-testid="select-filter" name="mainField">
+      <option value="Matemáticas">Matemáticas</option>
+      <option value="Física">Física</option>
+      <option value="Ciencia">Ciencia</option>
+      <option value="Astronomía">Astronomía</option>
+      <option value="Química">Química</option>
+      <option value="Microbiología">Microbiología</option>
+      <option value="Composición Músical">Composición Músical</option>
+      <option value="Filosofía">Filosofía</option>
+      
+
+
+    </select>
+
+    <label for="abecedario">Ordenar por:</label>
+    <select data-testid="select-sort" name="abc">   
+      <option value="ascendente">A-Z</option>
+      <option value="descendente">Z-A</option>
+    </select>
+
+    <button data-testid="button-clear">Limpiar</button>
+
+  </nav>
+  
+  <div id="root"></div>  
+
     <script src="main.js" type="module"></script>
   </body>
 </html>

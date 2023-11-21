@@ -1,0 +1,106 @@
+ @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,1000&display=swap');
+
+ body {
+    font-family: 'DM Sans', sans-serif;
+    background: url("images/background.jpg");
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFF;
+    margin: 0; 
+    padding: 0;
+}
+header {
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 35px;
+    padding-top: 0.3%;
+    margin: 0;
+    padding: 0;
+}
+
+nav h2 {
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 35px;
+    margin: 0;
+}
+
+nav {
+    font-weight: 300;
+    text-align: center;
+    align-items: center;
+    color: #FFF;
+    
+    font-size: 20px;
+}
+
+select{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    color: #ffffff;
+    border-width: 2px; 
+    border-color: #ca9de43f;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 2px;
+    background-color: #dfb9e74d;
+    backdrop-filter: blur(30px);
+}
+
+select:focus{
+    background-color: #dfb9e74d;
+    color: #000000;
+}
+
+button {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #9611e2; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer;
+}
+.Info{
+    display: inline-block;
+    align-items: center;
+    vertical-align: top;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    width: 400px;
+    height: 970px;
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(30px);
+    border: 3px solid rgba(156, 97, 173, 0.342);
+    border-radius: 16px;
+    color: #ffffff;
+    box-shadow: 0 5 px 10 px rgba(243, 126, 233, 0.733);
+}
+dt{
+    font-weight:1000;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+dd{
+    font-weight:200;
+    font-size: 15px;
+    text-align: center;
+    padding:10px;
+    margin:0px;
+}
+img{
+    max-width: 100%; /* La imagen no será más ancha que su contenedor */
+  height: auto; /* Mantiene la proporción de aspecto original de la imagen */
+  display: block; /* Elimina cualquier espacio adicional alrededor de la imagen */
+  margin: 0 auto;
+}
