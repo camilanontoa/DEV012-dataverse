@@ -11,6 +11,8 @@
 
 * Se puede personalizar la experiencia de visualización según los intereses pues filtra los resultados por campos
 
+![prototipo](https://github.com/camilanontoa/DEV012-dataverse/assets/145471945/0754ee28-e1dc-41d8-9df6-fc141ac4f35e)
+
 ##  Historias de usuario
 
 * Título: Filtros 
